@@ -40,7 +40,9 @@ Ahora comprobamos dentro de la consola de Geth si detecta el compilador de Solid
 ``eth.getCompilers()``
 Si la salida del comando es ["Solidity"], has instalado correctamente el compilador en el cliente geth. Puedes salir de la consola pulsando la combinación de teclas Ctrl+D.
   
-## Instalar Meteor 
+### Instalar Meteor 
+
+### Desarrollar contratos en una cadena de bloques de testeo
 
 #### To be continued!
 
