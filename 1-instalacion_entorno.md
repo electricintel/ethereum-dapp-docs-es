@@ -47,6 +47,22 @@ Si la salida del comando es ["Solidity"], has instalado correctamente el compila
   
 ### Instalar Meteor 
 
+Para descargar e instalar Meteor a traves de la consola, necesitas "curl", por lo que si no lo tienes, introduce lo siguiente.
+  
+``sudo apt-get install curl``
+  
+Una vez instalado curl, ejecutamos la instalación de meteor.
+  
+``curl https://install.meteor.com/ | sh``
+  
+Creamos un proyecto en Meteor, llamándolo por ejemplo "eth-dapp". Y nos movemos dentro del proyecto creado.
+
+```meteor add eth-dapp
+cd 'eth-dapp'```
+  
+Ahora podemos proceder a instalar paquetes de Meteor, hay varios ya creados destinados al desarrollo de dapps. Como ejemplo podemos usar los siguientes.
+#### To be continued!
+
 ### Desarrollar contratos en una cadena de bloques de testeo
 
 #### To be continued!
