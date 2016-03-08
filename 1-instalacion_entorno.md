@@ -31,7 +31,7 @@ Abrimos dos terminales diferentes (o dos pestañas), en el primer terminal ejecu
   
 Veremos como empieza a cargar la cadena de bloques, esto puede tardar varias horas hasta que se sincronize. Puedes ver el número de bloques actuales en algún explorador de bloques, como [EtherCamp](https://live.ether.camp/ "Explorador de bloques EtherCamp). 
 
-En la segunda terminal, ejecutamos el siguiente comando para entrar en la consola de Geth:
+En la segunda terminal, ejecutamos el siguiente comando para entrar en la consola de Geth. No hace falta esperar a que sincronize la cadena de bloques para este paso.
   
 ``geth attach``
   
