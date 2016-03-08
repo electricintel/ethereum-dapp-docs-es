@@ -26,18 +26,23 @@ Además hay que indicarle a Geth la ruta donde se instaló SolC, por lo que ejec
 ### Ejecutando geth por primera vez 
 
 Abrimos dos terminales diferentes (o dos pestañas), en el primer terminal ejecutamos el cliente de Ethereum.
+  
 ``geth``
+  
 Veremos como empieza a cargar la cadena de bloques, esto puede tardar varias horas hasta que se sincronize. Puedes ver el número de bloques actuales en algún explorador de bloques, como [EtherCamp](https://live.ether.camp/ "Explorador de bloques EtherCamp). 
 
 En la segunda terminal, ejecutamos el siguiente comando para entrar en la consola de Geth:
+  
 ``geth attach``
+  
 Una vez dentro de la consola de Geth, establecemos la ruta del compilador de Solidity, que nos dio el comando "which solc", reemplazando */ruta/del/solc*, manteniendo las comillas.
-
+  
 ``admin.setSolc("/ruta/del/solc")``
-
+  
 Ahora comprobamos dentro de la consola de Geth si detecta el compilador de Solidity:
-
+  
 ``eth.getCompilers()``
+  
 Si la salida del comando es ["Solidity"], has instalado correctamente el compilador en el cliente geth. Puedes salir de la consola pulsando la combinación de teclas Ctrl+D.
   
 ### Instalar Meteor 
