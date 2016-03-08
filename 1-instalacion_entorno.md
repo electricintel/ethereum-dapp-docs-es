@@ -3,7 +3,7 @@
 `Para este tutorial, es necesario tener un mínimo de experiencia con la terminal` 
 
 ### Instalar Geth y Solidity
-El primer paso sería instalar la versión estable de Geth, el cliente Go de Ethereum. También debemos instalar SolC, el compilador de Solidity.
+El primer paso sería instalar la versión estable de Geth, el cliente Go de Ethereum, a través de la terminal. También debemos instalar SolC, el compilador de Solidity.
 ```
 sudo apt-get install software-properties-common
 sudo add-apt-repository -y ppa:ethereum/ethereum
