@@ -12,7 +12,3 @@ Una vez que hayamos realizado las pruebas y los tests oportunos, se debe despleg
 ###Configurar Geth para utilizar la cadena de bloques de Consensys
 
 #### To be continued!
-
-### Desarrollar contratos en una cadena de bloques de testeo
-
-#### To be continued!
