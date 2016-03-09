@@ -10,5 +10,14 @@ La cadena de bloques no oficial que recomiendo es la de Consensys, ya que posee 
 Una vez que hayamos realizado las pruebas y los tests oportunos, se debe desplegar el contrato en el entorno real de Ethereum.
 
 ###Configurar Geth para utilizar la cadena de bloques de Consensys
+  
+[...]
+  
+```
+mkdir ~/.eth-cons-testnet
+cd ~/.eth-cons-testnet
+wget 'https://raw.githubusercontent.com/ConsenSys/public-testnet/master/genesis.json'
+geth --networkid 161 --datadir ~/.eth-cons-testnet --genesis ~/.eth-cons-testnet/genesis.json
+```
 
 #### To be continued!
