@@ -1,6 +1,6 @@
 ## Instalación de Geth, Solidity y Meteor en Ubuntu
                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-`Para este tutorial, es necesario tener un mínimo de experiencia con la terminal y conocimientos en Meteor. Un buen recurso en español para aprender Meteor es http://es.discovermeteor.com/` 
+`Para este tutorial, es necesario tener un mínimo de experiencia con la terminal.`
 
 ### Instalar Geth y Solidity
 El primer paso sería instalar la versión estable de Geth, el cliente Go de Ethereum, a través de la terminal. También debemos instalar SolC, el compilador de Solidity.
@@ -54,20 +54,8 @@ Para descargar e instalar Meteor a traves de la consola, necesitas "curl", por l
 Una vez instalado curl, ejecutamos la instalación de meteor.
   
 ``curl https://install.meteor.com/ | sh``
-  
-Creamos un proyecto en Meteor, llamándolo por ejemplo "eth-dapp". Y nos movemos dentro del proyecto creado.
 
-```
-meteor add eth-dapp  
-cd 'eth-dapp'
-```
-  
-Ahora podemos proceder a instalar paquetes de Meteor, hay varios ya creados destinados al desarrollo de dapps. Como ejemplo podemos usar los siguientes.
-#### To be continued!
-
-### Desarrollar contratos en una cadena de bloques de testeo
-
-#### To be continued!
+**Realizado la acción anterior, tendremos el sistema prerarado para desarrollar Dapps en Meteor, utilizando contratos en Ethereum. Para obtener los conocimientos necesarios en meteor, recomiendo este sitio [Discover Meteor ES](http://es.discovermeteor.com). En el próximo artículo se abordará un ejemplo sencillo de una Dapp con interfaz web, utilizando el conocido contrato llamado CoinLock.**
 
 ### Fuentes
 * [ go-ethereum wiki - Installation Instructions for Ubuntu](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu) 
