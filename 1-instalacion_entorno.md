@@ -1,6 +1,6 @@
 ## Instalación de Geth, Solidity y Meteor en Ubuntu
                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-`Para este tutorial, es necesario tener un mínimo de experiencia con la terminal` 
+`Para este tutorial, es necesario tener un mínimo de experiencia con la terminal y conocimientos en Meteor. Un buen recurso en español para aprender Meteor es http://es.discovermeteor.com/` 
 
 ### Instalar Geth y Solidity
 El primer paso sería instalar la versión estable de Geth, el cliente Go de Ethereum, a través de la terminal. También debemos instalar SolC, el compilador de Solidity.
