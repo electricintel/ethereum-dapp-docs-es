@@ -57,8 +57,10 @@ Una vez instalado curl, ejecutamos la instalación de meteor.
   
 Creamos un proyecto en Meteor, llamándolo por ejemplo "eth-dapp". Y nos movemos dentro del proyecto creado.
 
-```meteor add eth-dapp
-cd 'eth-dapp'```
+```
+meteor add eth-dapp  
+cd 'eth-dapp'
+```
   
 Ahora podemos proceder a instalar paquetes de Meteor, hay varios ya creados destinados al desarrollo de dapps. Como ejemplo podemos usar los siguientes.
 #### To be continued!
