@@ -11,13 +11,25 @@ Una vez que hayamos realizado las pruebas y los tests oportunos, se debe despleg
 
 ###Configurar Geth para utilizar la cadena de bloques de Consensys
   
-[...]
+Para utilizar la testnet de Consensys, con id 161, tenemos que preparar el cliente Geth. Creamos un directorio separado a la cadena de bloques oficial,en la que contendrá la cadena de bloques de la testnet y el archivo de génesis de Consensys en JSON que contiene la configuración de dicha testnet. Puedes ver los parámetros de dicho archivo en este [enlace](https://github.com/ConsenSys/public-testnet/blob/master/genesis.json). Para que puedas conectar a los nodos de esta tesnet, debes de dejar el archivo génesis intacto.
+  
+Los siguientes comandos creara el directorio comentado anteriormente, entrará dentro del mismo, y descargará el archivo génesis.
   
 ```
 mkdir ~/.eth-cons-testnet
 cd ~/.eth-cons-testnet
 wget 'https://raw.githubusercontent.com/ConsenSys/public-testnet/master/genesis.json'
-geth --networkid 161 --datadir ~/.eth-cons-testnet --genesis ~/.eth-cons-testnet/genesis.json
 ```
+Ahora, seguiremos el mismo procedimiento de abrir dos terminales, o dos pestañas, en una terminal ejecutamos el siguiente comando para iniciar el cliente geth configurado con la testnet.
+
+``geth --networkid 161 --datadir ~/.eth-cons-testnet --genesis ~/.eth-cons-testnet/genesis.json``
+
+En la otra terminal, podemos hacer un "attach" o vinculación para obtener la consola Javascript del cliente anterior, sin que moleste los mensajes de sincronización de los nodos.
+
+``geth --networkid 161 --datadir ~/.eth-cons-testnet --genesis ~/.eth-cons-testnet/genesis.json attach``
+
+## Obtención de Ether en la Tesnet
+
+[...]
 
 #### To be continued!
