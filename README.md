@@ -1,2 +1,6 @@
-# ethereum-dapp-wiki
-Wiki sobre desarrollo de Ethereum Dapps en Español
+# Documentación sobre desarrollo de Ethereum Dapps en Español
+
+    ethereum-dapp-wiki  Copyright (C) 2016  David Canillas Racero
+    This program comes with ABSOLUTELY NO WARRANTY.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions.
