@@ -1,5 +1,4 @@
-  
-## Desarrollar una Dapp en una cadena de bloques de prueba
+## Configurar el cliente Geth en la Tesnet
 ### ¿Por qué utilizar una cadena de bloques alternativa a la original?
 Para realizar pruebas de un contrato o de una dapp, es aconsejable no utilizar la cadena de bloques oficial, ya que necesitas una cantidad considerable de Ether para pagar las acciones realizadas en el contrato y también así se evita usar o congestionar la red principal de Ethereum.
 
