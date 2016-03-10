@@ -27,7 +27,7 @@ En la otra terminal, podemos hacer un "attach" o vinculación para obtener la co
 
 ``geth --networkid 161 --datadir ~/.eth-cons-testnet --genesis ~/.eth-cons-testnet/genesis.json attach``
 
-## Obtención de Ether en la Tesnet
+## Obtención de Ether en la Testnet
 
 [...]
 
