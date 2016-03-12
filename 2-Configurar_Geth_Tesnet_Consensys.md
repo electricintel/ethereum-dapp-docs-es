@@ -19,16 +19,22 @@ mkdir ~/.eth-cons-testnet
 cd ~/.eth-cons-testnet
 wget 'https://raw.githubusercontent.com/ConsenSys/public-testnet/master/genesis.json'
 ```
-Ahora, seguiremos el mismo procedimiento de abrir dos terminales, o dos pestañas, en una terminal ejecutamos el siguiente comando para iniciar el cliente geth configurado con la testnet.
-
+Ahora, seguiremos el mismo procedimiento de abrir dos terminales, o dos pestañas, en una terminal ejecutamos el siguiente comando para iniciar el cliente geth configurado con la testnet y empezar a sincronizar la cadena de bloques.
+  
 ``geth --networkid 161 --datadir ~/.eth-cons-testnet --genesis ~/.eth-cons-testnet/genesis.json``
-
-En la otra terminal, podemos hacer un "attach" o vinculación para obtener la consola Javascript del cliente anterior, sin que moleste los mensajes de sincronización de los nodos.
-
+  
+En la otra terminal, primero crearemos la dirección de nuestra cuenta en la Testnet y después hacer un "attach" o vinculación para obtener la consola Javascript del cliente anterior, sin que moleste los mensajes de sincronización del cliente con la red Ethereum.
+  
+``geth --networkid 161 --datadir ~/.eth-cons-testnet --genesis ~/.eth-cons-testnet/genesis.json account new``
+  
 ``geth --networkid 161 --datadir ~/.eth-cons-testnet --genesis ~/.eth-cons-testnet/genesis.json attach``
 
 ## Obtención de Ether en la Testnet
 
-[...]
+Necesitas saber tu dirección de Ethereum para poder recibir Ether, desplegar contratos, y hacer llamadas a los mismos. En la consola del cliente Geth, introduce el siguiente comando para imprimir por pantalla las cuentas creadas anteriormente.
+  
+> ``eth.accounts``
+  
+Nos dirigimos a [test.ether.camp](https://test.ether.camp/), y en la cabecera de la página a la izquierda, pulsamos el botón **Get Free Ether**. Indicamos la dirección de nuestra cuenta de la testnet, **quitando el prefijo "0x"**, y pulsamos  el botón **Get Ether >**.
 
 #### To be continued!
