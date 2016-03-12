@@ -55,7 +55,7 @@ Una vez instalado curl, ejecutamos la instalación de meteor.
   
 ``curl https://install.meteor.com/ | sh``
 
-**Realizado la acción anterior, tendremos el sistema prerarado para desarrollar Dapps en Meteor, utilizando contratos en Ethereum. Para obtener los conocimientos necesarios en meteor, recomiendo este sitio [Discover Meteor ES](http://es.discovermeteor.com). En el próximo artículo se abordará un ejemplo sencillo de una Dapp con interfaz web, utilizando el conocido contrato llamado CoinLock.**
+**Realizado la acción anterior, tendremos el sistema prerarado para desarrollar Dapps en Meteor, utilizando contratos en Ethereum. Para obtener los conocimientos necesarios en meteor, recomiendo este sitio [Discover Meteor ES](http://es.discovermeteor.com). Pronto se abordará un ejemplo sencillo de una Dapp con interfaz web, utilizando un contrato llamado [CoinLock](https://github.com/ryepdx/coinlock/blob/master/coinlock.sol).**
 
 ### Fuentes
 * [ go-ethereum wiki - Installation Instructions for Ubuntu](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu) 
