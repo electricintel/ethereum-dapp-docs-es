@@ -4,7 +4,7 @@ Para realizar pruebas de un contrato o de una dapp, es aconsejable no utilizar l
 
 Hay varias soluciones mas rápidas, como utilizar Embark, que despliega una cadena de bloques privada al instante, pero no se obtiene una gran visión de lo que pasa dentro del contrato desplegado sin tener un explorador de bloques.
 
-La cadena de bloques no oficial que recomiendo es la de Consensys, ya que posee un explorador de bloques más avanzado que el resto,  [Testnet Ether Camp](https://test.ether.camp/), capaz de detectar en los contratos transacciones de salida y cambios internos de los datos del contrato.
+La cadena de bloques no oficial que recomiendo es la de Consensys, ya que posee un explorador de bloques más avanzado que el resto,  [Test Ether Camp](https://test.ether.camp/), capaz de detectar en los contratos transacciones de salida y cambios internos de los datos del contrato.
 
 Una vez que hayamos realizado las pruebas y los tests oportunos, se debe desplegar el contrato en el entorno real de Ethereum.
 
