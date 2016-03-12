@@ -6,6 +6,6 @@
 2. [Configurar el cliente Geth en la Testnet de Consensys](https://github.com/kartojal/ethereum-dapp-docs-es/blob/master/2-Configurar_Geth_Tesnet_Consensys.md)
   
   
-** Cualquier corrección o recomendación de temas para incluirlo en la documentación es bienvenida, ponte en contacto conmigo o abre una Issue.**
+**Cualquier corrección o recomendación de temas para incluirlo en la documentación es bienvenida, ponte en contacto conmigo o abre una Issue.**
   
 ethereum-dapp-docs-es  Copyright (C) 2016  David Canillas Racero
